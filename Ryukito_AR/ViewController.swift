@@ -207,7 +207,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDele
         let nodeA = contact.nodeA
         let nodeB = contact.nodeB
         
-        self.testlab.text = nodeB.name! + " が " + nodeA.name! + " に当たった！！ "
+        self.testlab.text = nodeB.name! + " が " + nodeA.name! + " に当たった！!！ "
         
 
     }
